@@ -1,8 +1,8 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://Tarynmoore.github.io/Book-search-engine",
   "private": true,
+  "homepage": "https://Tarynmoore.github.io/Book-search-engine",
   "proxy": "http://localhost:3001",
   "dependencies": {
     "@apollo/client": "^3.5.8",
