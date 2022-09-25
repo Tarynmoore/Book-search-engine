@@ -1,6 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "homepage": "https://Tarynmoore.github.io/Book-search-engine",
   "private": true,
   "proxy": "http://localhost:3001",
   "dependencies": {
@@ -8,17 +9,18 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "graphql": "^15.4.0",
     "bootstrap": "^4.4.1",
+    "graphql": "^15.4.0",
     "jwt-decode": "^3.1.2",
     "react": "^17.0.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "4.0.1"
-
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
