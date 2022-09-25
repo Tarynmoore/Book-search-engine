@@ -23,3 +23,4 @@ Next begin the server and watch the magic happen!
 ```bash
 npm run deploy
 ```
+[Untitled_ Sep 25, 2022 4_36 PM.webm](https://user-images.githubusercontent.com/101439331/192168667-b3f8e743-e28e-46af-9e0a-d1c45177e2df.webm)
